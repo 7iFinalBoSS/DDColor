@@ -14,7 +14,7 @@ class Predictor(BasePredictor):
         """Load the model into memory to make running multiple predictions efficient"""
         # download the weights to "checkpoints"
 
-        from basicsr.archs.ddcolor_arch import DDColor
+        from newsr.archs.ddcolor_arch import DDColor
 
         class ImageColorizationPipeline(object):
             def __init__(self, model_path, input_size=256, model_size="large"):

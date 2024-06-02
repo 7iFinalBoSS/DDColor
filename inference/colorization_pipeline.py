@@ -4,7 +4,7 @@ import numpy as np
 import os
 from tqdm import tqdm
 import torch
-from basicsr.archs.ddcolor_arch import DDColor
+from newsr.archs.ddcolor_arch import DDColor
 import torch.nn.functional as F
 
 

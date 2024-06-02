@@ -3,7 +3,7 @@ import cv2
 import os
 from tqdm import tqdm
 import torch
-from basicsr.archs.ddcolor_arch import DDColor
+from newsr.archs.ddcolor_arch import DDColor
 
 from huggingface_hub import PyTorchModelHubMixin, hf_hub_download
 from inference.colorization_pipeline import ImageColorizationPipeline
